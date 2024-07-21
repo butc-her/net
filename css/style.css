@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu-container{
+    display: flex;
+    flex-direction: column;
+}
+.hero-image{
+display: flex;
+flex-direction: columm;
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../image/NG-en-20240520-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+height: 100vh;
+background-repeat:no-repeat ;
+background-size:cover ;
+position: relative;
+}
+.heading{
+    color: #fff;
+    font-size: 4em;
+}
+.sub-heading{
+color: #fff;
+font-size: 2em;
+}
+.caption{
+
+color: #fff; 
+font-size: 1em;
+}
+.hero-text{
+    position: absolute;
+top: 250px;
+left: 250px;
+outline: 250PX;
+text-align: center
+}
+.logo-container{
+    display: flex;
+    position: relative;
+}
+.logo h3{
+    color:#f1190e;
+    position: absolute;
+    left: 300px;
+font-size: 2.5em;
+}
+
+.sign a{
+    color: #fff;
+    position: absolute;
+    right: 300px;
+    padding: 8px 12px;
+    background: #f1190e;
+    border-radius: 8px;
+    text-decoration: none;
+    top: 10px;
+}
+
+/* enjoy-container */
+.enjoy-container{
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) #000;
+}
+.content-countainer{
+    display: flex;
+    position: relative;
+}
+.first-container{
+    position: relative;
+    width: 100%;
+    left: 0;
+    color: #fff;
+}
+.second-container{
+    position: relative;
+    width: 100%;
+    right: 0;
+}
+.first-container h5{
+    text-align: center;
+    font-size: 3.5em;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.first-container p{
+    text-align: left;
+    font-size: 1.8em;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
